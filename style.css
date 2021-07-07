@@ -1,0 +1,96 @@
+#AllContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#FirstBox{
+    align-self: center;
+    flex: 1;
+    /* border: 2px black solid; */
+    width: 50%;
+    text-align: center;
+    background-color: rgb(238, 218, 164);
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#SecondBox{
+    flex: 1;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Entry{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    /* padding-left: 100px; */
+}
+
+#Entry label{
+    font-size: 18;
+}
+
+#Entry input{
+    padding: 8px;
+}
+
+#Entry select{
+    padding: 8px;
+}
+
+#Table{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 5px 1rem;
+    
+}
+td {
+    border: 2px solid rgb(243, 197, 70);
+    padding: 15px;
+    background-color: rgb(241, 230, 199);
+    box-shadow: 2px 2px 2px #acaaaa;
+}
+
+#Table thead th{
+    background-color:rgb(238, 218, 164) ;
+    padding: 15px;
+    border: 4px solid rgb(243, 197, 70);
+    box-shadow: 2px 2px 2px #acaaaa;
+}
+
+
+#FirstBox h3{
+    padding-bottom: 10px;
+    border-bottom: 2px black solid;
+    align-self: center;
+}
+
+#reg{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+body{
+    background-color: rgb(231, 226, 226);
+}
+
+#Buttons button{
+    height: 35px; 
+    width: 90px;
+    margin-top: 15px;
+}
+
+#DeleteSelected{
+    height: 35px; 
+    width: 120px;
+    margin-top: 10px;
+}
+
+#msg{
+    color: white;
+    background-color: red;
+}
+
